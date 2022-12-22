@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .li{
+    padding: 4px 6px;
+    background: rgb(129, 60, 43);
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    text-transform: capitalize; 
+    border-radius: 1rem;
+  }
+  
+  .li-active{
+    background: rgb(76, 136, 76);
+  }
+  .text{
+    width: 100%;
+  }
+  .donebtn{
+    width: 20%;
+  }
+  
+  .delbtn{
+    width: 20%;
+  }
+  
+  button{
+    background: rgb(184, 186, 109);
+    border-radius: 10px;
+    overflow: hidden;
+    perspective: 1px;
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+  }
+  .center {
+    align-self: center;
+  }
+  
+  .flow-right {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+  }
+  
+  .title, .controls, .button {
+    flex: none;
+  }
+  
+  .button {
+    padding: 10px 20px;
+  }
+  
+  .todo-list {
+    flex: 1 1 0;
+    margin-top: 20px;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  
